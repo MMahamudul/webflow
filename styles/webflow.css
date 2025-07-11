@@ -61,3 +61,103 @@ header {
     align-items: center; 
     padding: 37px;
 }
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+
+}
+.action-image{
+    border-radius: 50px;
+    width: 403px;
+    height: 328px;
+}
+
+.action-title{
+    color: #252432;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+.action-description{
+    color: #808080;
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    
+}
+
+.productive-user{
+    background-color: #d3d3f2;
+    height: 100px;
+    border-radius: 20px;
+    margin: 150px;
+    padding: 50px;
+    
+}
+.user-description{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.user-stat{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.user-info{
+    text-align: center;
+    color:#808080; ;
+    font-size: 13px;
+    
+}
+.title{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+.form-description label{
+    display: block;
+    margin-top:10px;
+    width: 100%;
+
+}
+.form-description input{
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+
+}
+.touch-form{
+    margin-left:160px;
+    padding-left: 160px;
+}
+
+.touch{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.touch-button{
+    display: block;
+    justify-items:space-between;
+    align-items: center;
+    width: 100%;
+}
+.touch-theme{
+    font-weight: bold;
+    font-size: 70px;
+}
+.touch-info{
+      margin-left: 65px;
+        padding-left: 50px;
+}
