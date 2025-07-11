@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body{
+    background-color: aliceblue;
+}
 
 
 .oswald-normal {
@@ -70,6 +73,7 @@ header {
 main{
     max-width: 1140px;
     margin: 0 auto;
+    
 }
 .action{
     display: flex;
@@ -149,6 +153,7 @@ main{
 
 .touch{
     display: flex;
+    margin-top: 100px;
     margin-left: 30px;
     align-items: center;
     justify-content: flex-start;
@@ -169,6 +174,8 @@ main{
 }
 footer{
     margin-top: 130px;
+    background-color: #FFFFFF;
+    padding: 40px;
 }
 .footer-title{
     text-align: center;
@@ -202,8 +209,8 @@ footer a{
     padding: 10px;
 }
 .card{
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 250px;
     border: 2px solid none;
     border-radius: 10px;
     background-color:rgb(243, 238, 238);
