@@ -184,6 +184,7 @@ footer ul{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 60px;
 }
 footer a{
     text-decoration: none;
