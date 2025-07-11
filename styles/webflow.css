@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.oswald-normal {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 800,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 150px;
+    max-width: 1140px;
+   
+    
+}
+.web-name{
+    color: #4E47FF;
+    font-weight: 800;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+}
+.header-bg{
+    background-image: url(../images/Hero-bg.png);
+   
+}
+header {
+  margin-top: 0;
+}
+.banner-tagline{
+    color:#252432 ;
+    font-size: 60px;
+    text-align: center;
+}
+.banner{
+   margin: 60px 300px;
+}
+.banner-btn{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 37px;
+}
