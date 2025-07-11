@@ -97,7 +97,7 @@ main{
     background-color: #d3d3f2;
     height: 100px;
     border-radius: 20px;
-    margin: 150px;
+    margin: 50px 150px;
     padding: 50px;
     
 }
@@ -114,7 +114,7 @@ main{
 }
 .user-info{
     text-align: center;
-    color:#808080; ;
+    color:#808080;
     font-size: 13px;
     
 }
@@ -159,5 +159,38 @@ main{
 }
 .touch-info{
       margin-left: 65px;
-        padding-left: 50px;
+      padding-left: 50px;
+}
+footer{
+    margin-top: 130px;
+}
+.footer-title{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.footer-description{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;}
+
+footer ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer a{
+    text-decoration: none;
+    color:#808080;
+    font-size: 15px;
+    font-weight: 300;
+}
+.footer-content{
+    padding: 10px;
 }
